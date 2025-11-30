@@ -199,7 +199,12 @@ td.leiras {
         width: 20em; 
     }
 }
-
+@media (max-width: 1vh) {
+    .bg_img1 {
+        background-position: top center;
+        min-height: 12em;
+    }
+}
 .blokk2 {
     background: rgba(0,0,0,0.4);
     padding: 1em;
