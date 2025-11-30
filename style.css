@@ -1,0 +1,317 @@
+html {
+    min-height: 1vh;
+    background-color: rgb(111,78,55);
+}
+
+body{
+    margin: 0 auto;
+    font-size: 120%;
+    font-family: "Grandstander", cursive;    
+    font-weight: 200;
+}
+
+footer{  
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.logo {
+    width: 4em;
+    margin: 0 auto;
+    padding-top: 1em;
+    display: block;
+}
+
+header, footer, nav a{
+    background-color: rgb(111,78,55);
+    color: rgb(236,216,177);
+}
+
+nav {
+    max-width: 30em;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    text-shadow: 0em 0.1em 0.5em black;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 1em 0.1em;
+}
+
+.kozep_ig {
+    max-width: 50em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+}
+
+section table td {
+    text-align: left;
+}
+
+.bg_img1 {
+    background-image: url('liget_bisztro.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focim1 {
+    color: rgb(236,216,177);
+    font-weight: bold;
+    font-size: 300%;
+    text-shadow: 0em 0.1em 0.5em black;
+}
+
+.bg_img2 {
+    background-color: rgb(166,123,91);
+    color:  rgb(236,216,177);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.focim2 {
+    color: rgb(236,216,177);
+    font-weight: bold;
+    font-size: 170%;
+    padding: 1em;
+    text-shadow: 0em 0.1em 0.2em black;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20em,1fr));
+    grid-gap: 1em;
+}
+
+.ikon {
+    width: 4em;
+    margin: 1.5em;
+}
+
+.rolunk2 {
+    font-size: 130%;
+    margin-bottom: 1em;
+    text-shadow: 0em 0.1em 0.2em black;
+    font-weight: bold;
+    color: rgb(238, 230, 213);
+}
+
+.rolunk3 {
+    color: rgb(238, 230, 213);
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+table th {
+    color: rgb(236,216,177);
+    font-size: 140%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-shadow: 0em 0.1em 0.5em black;
+}
+
+td {
+    color: white;
+    font-style: italic;
+    font-size: 120%;
+    text-shadow: 0em 0.1em 0.5em black;
+}
+
+td.leiras {
+    font-size: 80%;
+    font-style: normal;
+    padding-top: 0.5em;
+    padding-bottom: 0.8em;
+    color: rgb(236,216,177);
+    text-shadow: none;
+}
+
+.bg_img3 {
+    background-color: rgb(166,123,91);
+    color:  rgb(236,216,177);
+    display: block;    
+}
+
+.ter_kep {
+    border-radius: 0.75em; 
+    overflow: hidden; 
+    box-shadow: 0 0.5em 1.25em black; 
+    max-width: 100%;
+    margin: 2em auto;
+}
+
+.kapcsolat h2{
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    font-size: 140%;
+    text-shadow: 0em 0.1em 0.5em black;
+}
+
+.kapcsolat div{
+    color: white;
+    padding: 0.5em;
+}
+
+.kapcsolat a,.kapcsolat h2, p, .blokk .kijeloltelem {
+    color: rgb(236,216,177);
+}
+
+.blokkok {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;             
+    justify-content: center;
+}
+
+.blokk {
+    background: rgba(0,0,0,0.4);
+    padding: 1em; 
+    border-radius: 0.75em;    
+    min-width: 15em;       
+    margin: 2em;
+    box-shadow: 0 0.5em 1.25em black; 
+}
+
+@media (max-width: 800px) {
+    textarea {
+        width: 20em; 
+    }
+}
+
+.blokk2 {
+    background: rgba(0,0,0,0.4);
+    padding: 1em;
+    border-radius: 0.75em;
+    margin: 2em 4em ;      
+    box-shadow: 0 0.2em 0.5em black;
+    display: block;         /* blokkok egymás alatt */
+}
+ 
+.kapcsolat a:hover {
+    color: white;
+}
+
+.menu a:hover {
+    color: rgb(111,78,55);
+    cursor: pointer;
+}
+
+nav a:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+#jatekForm {
+    max-width: 50em;
+    
+}
+
+/* --- VÉLEMÉNY ŰRLAP --- */
+#velemenyForm {
+    max-width: 50em;
+    margin: 0 auto 3em auto;
+    background: rgba(0,0,0,0.4);
+    padding: 2em;
+    border-radius: 0.75em;
+    box-shadow: 0 0.5em 1.25em black;
+    display: flex;
+    flex-direction: column;
+    gap: 1em; /* mire jó ez a 3?? */
+}   
+
+#velemenyForm label {
+    text-align: left;
+    font-weight: bold;
+    color: rgb(236,216,177);
+}
+
+#velemenyForm input[type="text"],
+#velemenyForm input[type="tel"],
+#velemenyForm input[type="email"],
+#velemenyForm input[type="date"],
+#velemenyForm select,
+#velemenyForm textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin: 1.5em 0;
+    border: none;
+    font-size: 0.7em;
+    box-sizing: border-box; /* hogy a padding ne növelje a szélességet */
+}
+
+#velemenyForm textarea {
+    resize: vertical;
+    min-height: 6em;
+}   
+
+#velemenyForm button{
+    padding: 1em;
+    font-size: 90%;
+    background-color: rgb(166,123,91);
+    color: rgb(236,216,177);
+    border-radius: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.error-msg {
+    font-size: 0.85em;
+    color: rgb(241, 171, 171) !important;
+}
+
+input.input-error,
+textarea.input-error,
+select.input-error {
+    border: 2px solid red !important;
+}
+
+
+/* JÁTÉK ŰRLAP */
+
+.blokk2 label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+#jatekForm button {
+    padding: 1em;
+    font-size: 90%;
+    background-color: rgb(111,78,55);
+    color: rgb(236,216,177);
+    border-radius: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#eredmeny {
+    max-width: 30em;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+    text-shadow: 0 0.5em 1.25em black;
+}
