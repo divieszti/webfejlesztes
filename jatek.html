@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diviánszky Eszter">
+    <meta name="description" content="Töltsd ki tesztünket és megkapod, hogy milyen hamburger lennél!">
+    <title>Liget Bisztró</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptjatek.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="liget_logo.png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="liget_logo.png" alt="Liget Bisztró logó">
+        <nav>
+            <ul>
+                <li><a href="fooldal.html">főoldal</a></li>
+                <li><a href="kinalat.html">kínálat</a></li>
+                <li><a href="kapcsolat.html">kapcsolat</a></li>
+                <li><a href="velemeny.html">vélemény</a></li>
+                <li><a href="jatek.html">játék</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="kapcsolat bg_img3">
+            <div class="kozep_ig">
+                <h2>milyen hamburger vagy? - személyiségteszt</h2>
+                <form id="jatekForm">
+                    <div class="blokk2">
+                        <label>1. milyen ízvilág áll hozzád a legközelebb?</label><br>
+                        <input type="radio" id="klasszik1" name="q1" value="klasszik" >
+                        <label for="klasszik1">ismerős, szokásos</label>
+                        <input type="radio" id="chili1" name="q1" value="chili">
+                        <label for="chili1">erős, csípős, tüzes</label>
+                        <input type="radio" id="vega1" name="q1" value="vega">
+                        <label for="vega1">könnyed, friss, zöldséges</label>
+                    </div>
+                    <div class="blokk2">
+                        <label >2. hogyan telik egy átlagos hétvégéd?</label><br>
+                        <input type="radio" id="klasszik2" name="q2" value="klasszik" >
+                        <label for="klasszik2">családdal/barátokkal lazítok</label>
+                        <input type="radio" id="chili2" name="q2" value="chili">
+                        <label for="chili2">pörgök, bulizok, megyek mindenfelé</label>
+                        <input type="radio" id="vega2" name="q2" value="vega">                        
+                        <label for="vega2">kirándulok, sportolok, kreatívkodok</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>3. mi motivál a legjobban?</label><br>
+                        <input type="radio" id="klasszik3" name="q3" value="klasszik">
+                        <label for="klasszik3">stabilitás és béke</label>
+                        <input type="radio" id="chili3" name="q3" value="chili">
+                        <label for="chili3">adrenalin és kihívás</label>
+                        <input type="radio" id="vega3" name="q3" value="vega">
+                        <label for="vega3">harmónia és önkifejezés</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>4. melyik a kedvenc köreted?</label><br>
+                        <input type="radio" id="klasszik4" name="q4" value="klasszik" >
+                        <label for="klasszik4">klasszik sült krumpli</label>
+                        <input type="radio" id="chili4" name="q4" value="chili">
+                        <label for="chili4">fűszeres, csípős krumpli</label>
+                        <input type="radio" id="vega4" name="q4" value="vega">
+                        <label for="vega4">édesburgonya vagy saláta</label>                    
+                    </div>
+                    <div class="blokk2">
+                        <label>5. hogyan reagálsz egy nehéz helyzetben?</label><br>
+                        <input type="radio" id="klasszik5" name="q5" value="klasszik" >
+                        <label for="klasszik5">nyugodtan, hagyományos módon</label>
+                        <input type="radio" id="chili5" name="q5" value="chili">
+                        <label for="chili5">azonnal, határozottan, erőből</label>
+                        <input type="radio" id="vega5" name="q5" value="vega">
+                        <label for="vega5">gondolkodva, kreatív megoldással</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>6. milyen filmeket szeretsz?</label><br>
+                        <input type="radio" id="klasszik6" name="q6" value="klasszik" >
+                        <label for="klasszik6">romantikus vagy vígjáték</label>
+                        <input type="radio" id="chili6" name="q6" value="chili">
+                        <label for="chili6">akció, thriller, horror</label>
+                        <input type="radio" id="vega6" name="q6" value="vega">
+                        <label for="vega6">fantasy, művészfilm vagy dokumentum</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>7. mi az alap életfilozófiád?</label><br>
+                        <input type="radio" id="klasszik7" name="q7" value="klasszik" >
+                        <label for="klasszik7">„az egyszerű a legjobb.”</label>
+                        <input type="radio" id="chili7" name="q7" value="chili">
+                        <label for="chili7">„mindig többet, gyorsabban, bátrabban!”</label>
+                        <input type="radio" id="vega7" name="q7" value="vega">
+                        <label for="vega7">„egyensúly, szabadság és kreativitás.”</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>8. milyen társaságban érzed jól magad?</label><br>
+                        <input type="radio" id="klasszik8" name="q8" value="klasszik" >
+                        <label for="klasszik8">barátságos, békés társaságban</label>
+                        <input type="radio" id="chili8" name="q8" value="chili">
+                        <label for="chili8"> energikus, hangos, impulzív emberekkel</label>
+                        <input type="radio" id="vega8" name="q8" value="vega">
+                        <label for="vega8">nyitott, különc, természetes személyekkel</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>9. ha választhatnál egy utazást, hova mennél?</label><br>
+                        <input type="radio" id="klasszik9" name="q9" value="klasszik" >
+                        <label for="klasszik9">egy klasszikus európai városba</label>
+                        <input type="radio" id="chili9" name="q9" value="chili">
+                        <label for="chili9">egy izgalmas, forró országba</label>
+                        <input type="radio" id="vega9" name="q9" value="vega">
+                        <label for="vega9">egy természetközeli, zöld helyre</label>
+                    </div>
+                    <div class="blokk2">
+                        <label>10. mit mondanának rólad a barátaid?</label><br>
+                        <input type="radio" id="klasszik10" name="q10" value="klasszik">
+                        <label for="klasszik10">megbízható és jófej</label>
+                        <input type="radio" id="chili10" name="q10" value="chili">
+                        <label for="chili10">tüzes, bevállalós, erős karakter</label>
+                        <input type="radio" id="vega10" name="q10" value="vega">
+                        <label for="vega10">egyedi, szabad és kreatív</label>
+                    </div>
+                    <button type="button" onclick="finishQuiz()">eredmény mutatása</button>
+                </form>
+            </div>
+            <h3 id="eredmeny"></h3>
+        </section>
+    </main>
+    <footer>&copy; 2025 Liget Bisztró</footer>
+</body>
+</html>
