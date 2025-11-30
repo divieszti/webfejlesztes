@@ -202,9 +202,7 @@ td.leiras {
 
 @media (max-width: 800px) {
     .bg_img1 {
-        min-height: 12em; 
-        background-position: top center; 
-        background-attachment: unset;
+        min-height: 12em;
         display: block;
     }
 }
