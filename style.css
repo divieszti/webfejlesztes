@@ -203,7 +203,7 @@ td.leiras {
     .bg_img1 {
         background-position: top center;
         min-height: 12em;
-        max-width: 1vh;
+        width: 1vh;
     }
 }
 .blokk2 {
