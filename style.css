@@ -204,6 +204,7 @@ td.leiras {
     .bg_img1 {
         min-height: 12em; 
         background-position: top center; 
+        background-attachment: unset;
         display: block;
     }
 }
