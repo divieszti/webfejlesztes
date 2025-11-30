@@ -65,7 +65,7 @@ section table td {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     min-height: 18em;
     display: flex;
     justify-content: center;
