@@ -227,7 +227,7 @@ nav a:hover {
     
 }
 
-/* --- VÉLEMÉNY ŰRLAP --- */
+/* VÉLEMÉNY ŰRLAP */
 #velemenyForm {
     max-width: 50em;
     margin: 0 auto 3em auto;
@@ -258,7 +258,7 @@ nav a:hover {
     margin: 1.5em 0;
     border: none;
     font-size: 0.7em;
-    box-sizing: border-box; /* hogy a padding ne növelje a szélességet */
+    box-sizing: border-box; 
 }
 
 #velemenyForm textarea {
