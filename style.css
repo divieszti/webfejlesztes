@@ -237,7 +237,7 @@ nav a:hover {
     box-shadow: 0 0.5em 1.25em black;
     display: flex;
     flex-direction: column;
-    gap: 1em; /* mire jó ez a 3?? */
+    gap: 1em;
 }   
 
 #velemenyForm label {
